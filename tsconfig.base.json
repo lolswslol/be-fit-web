@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@be-fit-web/global-components": ["libs/global-components/src/index.ts"],
+      "@be-fit-web/shared": ["libs/shared/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
